@@ -40,6 +40,8 @@ RUN npm install
  docker run -dp 3000:3000  amanraut765/aman-docker-images:latest
  So that we can access it using our localhost 
  Note :-  -d for detach mode and p is used for port mapping .
+
+ 
  Here i have find some of very usefull command for docker containers like 
  ->docker exec -it container_name sh/app
  ->docker logs container_id or docker logs -f container_id
